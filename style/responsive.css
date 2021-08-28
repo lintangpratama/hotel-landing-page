@@ -1,0 +1,150 @@
+/* Responsive Tablet */
+@media (max-width: 1000px) {
+
+    h4 {
+        font-size: 0.8rem;
+    }
+
+    .rounded {
+        margin-right: 10px;
+    }
+
+    .blog-author {
+        padding-left: 50px;
+    }
+
+    .second {
+        margin: 0;
+    }
+    
+    .section-title h3 {
+        font-size: 1.5rem;
+    }
+
+    .review {
+        flex-wrap: wrap;
+        padding-bottom: 200px;
+    }
+    
+    .image-review {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .review-information {
+        top: 80px;
+    }
+    
+    .image-review img {
+        width: 100%;
+    }
+
+    .review-box {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .more-information-section {
+        padding-bottom: 800px;
+        text-align: center;
+    }
+
+    .more-information-section a {
+        text-align: center;
+    }
+
+    .company-info, .company-info p {
+        width: 100%;
+    }
+
+    .legal {
+        width: 100%;
+    }
+
+    .resources {
+        width: 100%;
+    }
+
+    .newsletter {
+        width: 100%;
+        float: left;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+}
+
+/* Responsive Medium */
+@media screen and (max-width: 840px) {
+
+    .blog {
+        width: 100%;
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+
+    .second {
+        margin-right: 0;
+    }
+
+    .blog-contents {
+        flex-wrap: wrap;
+    }
+
+}
+
+/* Responsive Smartphone */
+@media all and (max-width: 670px) {
+    
+    .plan-contents {
+        flex-wrap: wrap;
+    }
+
+    .plan-card {
+        width: 100%;
+        margin: 0 40px;
+        margin-bottom: 40px !important;
+    }
+
+    .second {
+        margin: 0 40px !important;
+    }
+
+    .blog {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .second {
+        margin: 0;
+    }
+
+    .blog-contents {
+        flex-wrap: wrap;
+    }
+
+    .section-title h3 {
+        font-size: 1.2rem;
+    }
+
+    .review {
+        margin-bottom: 60px;
+    }
+
+    .reviewer-name {
+        font-size: 1rem;
+    }
+
+    .white {
+        padding-top: 20px;
+    }
+
+    .social-media {
+        padding-top: 25px;
+    }
+
+    .review-information {
+        width: 90%;
+    }
+}
