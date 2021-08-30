@@ -109,6 +109,10 @@ h5 {
     color: #0c382c;
 }
 
+.navbar .hamburger {
+    display: none;
+}
+
 .container-main {
     width: 60%;
     margin: 0 0 0 200px;
@@ -200,7 +204,7 @@ h5 {
 }
 
 .our-services {
-    margin-bottom: 130px;
+    margin-bottom: 100px;
 }
 
 .services-contents {

@@ -58,7 +58,7 @@
     }
 
     .more-information-section {
-        padding-bottom: 800px;
+        padding-bottom: 650px;
         text-align: center;
     }
 
@@ -86,10 +86,20 @@
         align-items: center;
     }
 
+    .newsletter p {
+        margin-top: 0px;
+    }
 }
 
 /* Responsive Medium */
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 900px) {
+
+    .navbar {
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        border-radius: 0px;
+    }
 
     .blog {
         width: 100%;
@@ -105,25 +115,78 @@
         flex-wrap: wrap;
     }
 
-}
+    .image-about {
+        width: 20%;
+        background-image: url('../img/resort.jpg');
+    }
 
-/* Responsive Smartphone */
-@media all and (max-width: 670px) {
-    
+    .image-about img {
+        display: none;
+    }
+
+    .box-about {
+        width: 70%;
+    }
+
+    .image-services {
+        width: 20%;
+        background-image: url(../img/profile-pic.jpg);
+    }
+
+    .image-services img {
+        display: none;
+    }
+
+    .box-description {
+        width: 80%;
+        margin: 0;
+    }
     .plan-contents {
         flex-wrap: wrap;
     }
 
     .plan-card {
-        width: 100%;
-        margin: 0 40px;
-        margin-bottom: 40px !important;
+        width: 60%;
+        margin: 0 20%;
+        margin-bottom: 60px !important;
     }
 
-    .second {
-        margin: 0 40px !important;
+}
+
+/* Responsive Smartphone */
+@media all and (max-width: 670px) {
+
+    .navbar-option {
+        display: none;
     }
 
+    .right-navbar a.hamburger {
+        display: block;
+        float: right;
+    }
+
+    .navbar.responsive {
+        position: relative;
+    }
+
+    .navbar.responsive a.hamburger {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .navbar.responsive a.bookNow {
+        position: absolute;
+        top: 21px;
+        right: 52px;
+    }
+
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    
     .blog {
         width: 100%;
         margin-bottom: 50px;

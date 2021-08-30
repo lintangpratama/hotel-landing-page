@@ -11,7 +11,7 @@
 <body>
 
     <div class="main-section">
-        <div class="navbar">
+        <div class="navbar" id="navbar">
             <div class="left-navbar">
                 <div class="logo">
                     <a href="#">Rayal Park</a>
@@ -25,7 +25,10 @@
                 </div>
             </div>
             <div class="right-navbar">
-                <a href="#">BOOK NOW</a>
+                <a href="#" class="bookNow">BOOK NOW</a>
+                <a href="javascript:void(0);" class="hamburger" onclick="hamburgerClick()">
+                    <i class="fa fa-bars"></i>
+                  </a>
             </div>
         </div>
         <div class="main-contents">
@@ -306,5 +309,6 @@
             <p class="white">© Copyright 2021 Royal Park All Right Reserved.</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
