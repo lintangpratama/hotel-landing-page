@@ -1,3 +1,16 @@
+/* Bigger Screen Responsive */
+
+@media (max-width: 1200px) {
+
+    .main-text {
+        width: 70%;
+    }
+
+    .main-image {
+        width: 30%;
+    }
+}
+
 /* Responsive Tablet */
 @media (max-width: 1000px) {
 

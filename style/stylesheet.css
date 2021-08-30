@@ -81,10 +81,11 @@ h5 {
     background-color: #fff;
     position:absolute;
     top: 50px;
-    left: 260px;
-    right: 260px;
+    left: 15%;
+    right: 15%;
     padding: 20px;
     border-radius: 5px;
+    justify-content: space-between;
 }
 
 .navbar-option a {
@@ -96,18 +97,16 @@ h5 {
     transition: 1s all;
 }
 
-.right-navbar {
-    display: flex;
-}
-
 .right-navbar a {
+    margin: 0 10px;
+    padding-top: 2px;
+    font-weight: bold;
     font-size: 0.9rem;
     color: #1a6b54;
-    margin: 0 5px 0 200px;
 }
 
 .right-navbar a:hover {
-    font-weight: bold;
+    color: #0c382c;
 }
 
 .container-main {
