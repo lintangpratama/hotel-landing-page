@@ -11,6 +11,17 @@
     }
 }
 
+/* Fix form */
+@media screen and (max-width: 1055px) {
+    input {
+        width: 170px;
+    }
+
+    .company-info p {
+        margin-bottom: 0px;
+    }
+}
+
 /* Responsive Tablet */
 @media (max-width: 1000px) {
 
@@ -156,13 +167,45 @@
 /* Responsive Smartphone */
 @media all and (max-width: 670px) {
 
+    .main-image {
+        width: 20%;
+    }
+
+    .main-text {
+        width: 80%;
+    }
+
+    .container-main {
+        width: 60%;
+        margin: 0 0 0 100px;
+        padding-top: 170px;
+    }
+
     .navbar-option {
         display: none;
+    }
+
+    .navbar-option.responsive {
+        display: block;
+    }
+
+    .navbar-option.responsive a {
+        margin-top: 10px;
+    }
+
+    .navbar-option.responsive a:hover {
+        background-color: #1a6b54;
+        border-bottom: none;
+        color: #fff;
     }
 
     .right-navbar a.hamburger {
         display: block;
         float: right;
+    }
+
+    .left-navbar.responsive {
+        display: block;
     }
 
     .navbar.responsive {
@@ -224,3 +267,86 @@
         width: 90%;
     }
 }
+
+/* Responsive lower screen */
+@media screen and (max-width: 600px) {
+    .services {
+        display: inline-block;
+    }
+}
+
+/* Lower smartphone screen */
+@media screen and (max-width: 485px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2.0rem;
+    }
+
+    .main-text {
+        width: 90%;
+    }
+
+    .main-image {
+        width: 10%;
+    }
+
+    .main-contents {
+        height: 600px;
+    }
+
+    .container-main {
+        width: 80%;
+        margin: 0 0 0 50px;
+        padding-top: 100px;
+    }
+
+    .image-about {
+        width: 13%;
+    }
+
+    .box-about {
+        width: 90%;
+        margin-left: 0px;
+    }
+
+    .box-description p {
+        width: 90%;
+    }
+
+    .image-services {
+        width: 13%;
+    }
+
+    .plan-card {
+        width: 80%;
+        margin: 0 10%;
+    }
+}
+
+
+/* Responsive lowest screen */
+@media screen and (max-width: 385px) {
+    .blog-info {
+        display: block;
+    }
+
+    .blog-author {
+        padding: 20px 0 0 0;
+    }
+
+    .blog-contents h4 {
+        width: 100%;
+    }
+
+    .blog-contents p {
+        width: 90%;
+    }
+}
+

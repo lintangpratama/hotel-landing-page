@@ -10,18 +10,19 @@
 </head>
 <body>
 
-    <div class="main-section">
+    <!-- Navbar and main section -->
+    <div class="main-section" id="main-section">
         <div class="navbar" id="navbar">
-            <div class="left-navbar">
+            <div class="left-navbar" id="left-navbar">
                 <div class="logo">
                     <a href="#">Rayal Park</a>
                 </div>
-                <div class="navbar-option">
-                    <a href=".main-section">Home</a>
-                    <a href=".about-section">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">Blog</a>
+                <div class="navbar-option" id="navbar-option">
+                    <a href="#main-section">Home</a>
+                    <a href="#about-section">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#blog-and-news">Blog</a>
                 </div>
             </div>
             <div class="right-navbar">
@@ -44,7 +45,8 @@
         </div>
     </div>
 
-    <div class="about-section">
+    <!-- Company description section -->
+    <div class="about-section" id="about-section">
         <div class="container">
             <div class="about-contents">
                 <div class="image-about">
@@ -65,7 +67,8 @@
         </div>
     </div>
 
-    <div class="our-services">
+    <!-- Services section -->
+    <div class="our-services" id="services">
         <div class="container">
             <div class="services-contents">
                 <div class="box-description">
@@ -93,7 +96,8 @@
         </div>
     </div>
 
-    <div class="best-plans">
+    <!-- Pricing section -->
+    <div class="best-plans" id="pricing">
         <div class="container">
             <div class="heading-blog">
                 <h2>Our Best Room Plans </h2>
@@ -138,7 +142,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="plan-card second">
+                <div class="plan-card">
                     <img src="img/modern-room-cropped.jpg" alt="modern room">
                     <div class="plan-content">
                         <h4>Modern Room</h4>
@@ -160,7 +164,8 @@
         </div>
     </div>
 
-    <div class="blog-and-news">
+    <!-- Blog and news section -->
+    <div class="blog-and-news" id="blog-and-news">
         <div class="container">
             <div class="heading-blog">
                 <h2>Our Latest Blog & News</h2>
@@ -215,7 +220,8 @@
         </div>
     </div>
 
-    <div class="reviews-section">
+    <!-- Review contents section -->
+    <div class="reviews-section" id="reviews">
         <div class="container">
             <div class="section-title">
                 <h3>See Satisfied Traveler Reviews</h3>
@@ -256,6 +262,7 @@
         </div>
     </div>
 
+    <!-- Other information section -->
     <div class="more-information-section">
         <div class="container">
             <div class="company-info">
@@ -293,6 +300,7 @@
         </div>
     </div>
 
+    <!-- Footer section -->
     <footer>
         <div class="container">
             <div class="social-media">
@@ -309,6 +317,8 @@
             <p class="white">© Copyright 2021 Royal Park All Right Reserved.</p>
         </div>
     </footer>
+
+    <!-- JavaScript file -->
     <script src="script.js"></script>
 </body>
 </html>

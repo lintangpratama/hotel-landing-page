@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -59,7 +60,6 @@ h5 {
 .main-section {
     color: #fff;
     position: relative;
-    margin-bottom: 120px;
 }
 
 .logo {
@@ -94,7 +94,7 @@ h5 {
 
 .navbar-option a:hover {
     border-bottom: 1px solid #1a6b54;
-    transition: 1s all;
+    transition: 0.5s all;
 }
 
 .right-navbar a {
@@ -141,7 +141,7 @@ h5 {
 }
 
 .about-section {
-    margin-bottom: 130px;
+    padding-top: 120px;
 }
 
 .about-contents {
@@ -204,7 +204,8 @@ h5 {
 }
 
 .our-services {
-    margin-bottom: 100px;
+    padding-top: 125px;
+    padding-bottom: 40px;
 }
 
 .services-contents {
@@ -287,6 +288,7 @@ h5 {
 
 .best-plans {
     margin: 0 auto;
+    padding-top: 20px;
     padding-bottom: 60px;
 }
 
@@ -354,7 +356,8 @@ h5 {
 
 .blog-and-news {
     margin: 0 auto;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .blog-contents {
