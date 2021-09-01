@@ -209,7 +209,7 @@
     }
 
     .navbar.responsive {
-        position: relative;
+        position: fixed;
     }
 
     .navbar.responsive a.hamburger {
